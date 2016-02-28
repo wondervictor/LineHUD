@@ -16,6 +16,7 @@
 		2E8E2E791C81FD70008CAE44 /* LineHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2E781C81FD70008CAE44 /* LineHUDTests.m */; };
 		2E8E2E841C81FD70008CAE44 /* LineHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2E831C81FD70008CAE44 /* LineHUDUITests.m */; };
 		2E8E2E941C81FDB7008CAE44 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2E931C81FDB7008CAE44 /* LineView.m */; };
+		2E8E2ED81C82D009008CAE44 /* example.png in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E2ED71C82D009008CAE44 /* example.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		2E8E2E851C81FD70008CAE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E8E2E921C81FDB7008CAE44 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineView.h; path = HUD/LineView.h; sourceTree = "<group>"; };
 		2E8E2E931C81FDB7008CAE44 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineView.m; path = HUD/LineView.m; sourceTree = "<group>"; };
+		2E8E2ED71C82D009008CAE44 /* example.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = example.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 		2E8E2E5D1C81FD70008CAE44 /* LineHUD */ = {
 			isa = PBXGroup;
 			children = (
+				2E8E2ED71C82D009008CAE44 /* example.png */,
 				2E8E2E611C81FD70008CAE44 /* AppDelegate.h */,
 				2E8E2E621C81FD70008CAE44 /* AppDelegate.m */,
 				2E8E2E641C81FD70008CAE44 /* ViewController.h */,
@@ -261,6 +264,7 @@
 			files = (
 				2E8E2E6E1C81FD70008CAE44 /* LaunchScreen.storyboard in Resources */,
 				2E8E2E6B1C81FD70008CAE44 /* Assets.xcassets in Resources */,
+				2E8E2ED81C82D009008CAE44 /* example.png in Resources */,
 				2E8E2E691C81FD70008CAE44 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +519,7 @@
 				2E8E2E8A1C81FD70008CAE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E8E2E8B1C81FD70008CAE44 /* Build configuration list for PBXNativeTarget "LineHUDTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				2E8E2E8D1C81FD70008CAE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2E8E2E8E1C81FD70008CAE44 /* Build configuration list for PBXNativeTarget "LineHUDUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				2E8E2E901C81FD70008CAE44 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
