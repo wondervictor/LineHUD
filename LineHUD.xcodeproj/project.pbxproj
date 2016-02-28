@@ -15,6 +15,7 @@
 		2E8E2E6E1C81FD70008CAE44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E8E2E6C1C81FD70008CAE44 /* LaunchScreen.storyboard */; };
 		2E8E2E791C81FD70008CAE44 /* LineHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2E781C81FD70008CAE44 /* LineHUDTests.m */; };
 		2E8E2E841C81FD70008CAE44 /* LineHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2E831C81FD70008CAE44 /* LineHUDUITests.m */; };
+		2E8E2E941C81FDB7008CAE44 /* LineView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E8E2E931C81FDB7008CAE44 /* LineView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		2E8E2E7F1C81FD70008CAE44 /* LineHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LineHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E8E2E831C81FD70008CAE44 /* LineHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LineHUDUITests.m; sourceTree = "<group>"; };
 		2E8E2E851C81FD70008CAE44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E8E2E921C81FDB7008CAE44 /* LineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LineView.h; path = HUD/LineView.h; sourceTree = "<group>"; };
+		2E8E2E931C81FDB7008CAE44 /* LineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LineView.m; path = HUD/LineView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		2E8E2E521C81FD70008CAE44 = {
 			isa = PBXGroup;
 			children = (
+				2E8E2E911C81FD80008CAE44 /* HUD */,
 				2E8E2E5D1C81FD70008CAE44 /* LineHUD */,
 				2E8E2E771C81FD70008CAE44 /* LineHUDTests */,
 				2E8E2E821C81FD70008CAE44 /* LineHUDUITests */,
@@ -138,6 +142,15 @@
 				2E8E2E851C81FD70008CAE44 /* Info.plist */,
 			);
 			path = LineHUDUITests;
+			sourceTree = "<group>";
+		};
+		2E8E2E911C81FD80008CAE44 /* HUD */ = {
+			isa = PBXGroup;
+			children = (
+				2E8E2E921C81FDB7008CAE44 /* LineView.h */,
+				2E8E2E931C81FDB7008CAE44 /* LineView.m */,
+			);
+			name = HUD;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E8E2E941C81FDB7008CAE44 /* LineView.m in Sources */,
 				2E8E2E661C81FD70008CAE44 /* ViewController.m in Sources */,
 				2E8E2E631C81FD70008CAE44 /* AppDelegate.m in Sources */,
 				2E8E2E601C81FD70008CAE44 /* main.m in Sources */,
